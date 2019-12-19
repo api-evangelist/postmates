@@ -1,0 +1,69 @@
+{
+    "name": "Postmates",
+    "description": "<p>Postmates is the leading on-demand logistics provider. With more than 20,000 active Postmates, the company operates the largest on-demand delivery fleet in 40 major US metropolitan markets. Postmates overall mission to power local, on-demand logistics focused on fast deliveries from any type of merchant at scale. With collaborations with Starbucks, Chipotle, 7-Eleven, Walgreens and Apple, Postmates is in line with that mission. T<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/postmates-logo.jpg",
+    "tags": [
+        "have api",
+        "local",
+        "target"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/postmates\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Postmates",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/postmates-logo.jpg",
+            "humanURL": "https:\/\/postmates.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/postmates-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "https:\/\/api.postmates.com"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/blog.postmates.com\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/blog.postmates.com\/rss"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/postmates.com\/developer"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/postmates.com\/developer\/docs"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/postmates"
+        },
+        {
+            "type": "Terms of Service",
+            "url": "https:\/\/postmates.com\/developer\/docs\/terms"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/postmates"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/postmates.com\/"
+        }
+    ]
+}
