@@ -1,0 +1,115 @@
+aid: postmates
+name: Postmates
+description: >-
+  Postmates was an on-demand delivery platform founded in 2011 that pioneered
+  urban courier-style delivery of food, groceries, alcohol, and convenience
+  goods across the United States. Uber acquired Postmates in December 2020 for
+  approximately $2.65 billion, and by 2023 the Postmates merchant, courier, and
+  consumer experiences were fully absorbed into the Uber Eats and Uber Direct
+  product lines. The historical Postmates Fleet API (courier dispatch) and
+  Postmates Customer API (anonymous delivery) have been retired and replaced by
+  Uber Direct as the supported on-demand delivery API surface. The Postmates
+  consumer brand still operates as a front door that funnels orders into the
+  Uber Eats marketplace. This profile is maintained as a historical record and
+  redirect pointer to the successor Uber developer APIs.
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://postmates.com
+created: '2024-01-01'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+type: Index
+access: 3rd-Party
+tags:
+  - Acquired
+  - Couriers
+  - Delivery
+  - Food Delivery
+  - Historical
+  - Logistics
+  - On-Demand
+  - Sunset
+apis:
+  - aid: postmates:postmates-fleet-api-historical
+    name: Postmates Fleet API (Historical / Deprecated)
+    description: >-
+      The Postmates Fleet API (also referred to as the Postmates On-Demand
+      Delivery API and Postmates Anywhere API) was a REST API that let
+      merchants programmatically create delivery jobs, quote pickup and
+      dropoff fares, dispatch Postmates couriers, and receive webhook updates
+      on delivery status. It was deprecated following the Uber acquisition and
+      is no longer accepting new developer signups. New integrations should
+      migrate to the Uber Direct API.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://postmates.com
+    baseURL: https://api.postmates.com
+    tags:
+      - Couriers
+      - Delivery
+      - Deprecated
+      - Logistics
+      - On-Demand
+    properties:
+      - type: Successor
+        url: https://developer.uber.com/docs/deliveries
+      - type: Status
+        url: https://postmates.com
+  - aid: postmates:uber-direct-successor
+    name: Uber Direct API (Successor)
+    description: >-
+      Uber Direct is the supported successor to the Postmates Fleet and
+      Postmates Customer APIs for programmatic on-demand delivery. Merchants
+      use Direct to quote, create, and track deliveries dispatched to the
+      Uber courier network in markets that Postmates historically served.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.uber.com/docs/deliveries
+    baseURL: https://api.uber.com
+    tags:
+      - Couriers
+      - Delivery
+      - Logistics
+      - On-Demand
+      - Uber
+    properties:
+      - type: Documentation
+        url: https://developer.uber.com/docs/deliveries
+      - type: GettingStarted
+        url: https://developer.uber.com/docs/deliveries/quickstart
+      - type: Portal
+        url: https://developer.uber.com
+common:
+  - url: https://postmates.com
+    name: Postmates Website
+    type: Website
+  - url: https://postmates.com/about
+    name: About Postmates
+    type: About
+  - url: https://help.uber.com/postmates
+    name: Postmates Help Center
+    type: Support
+  - url: https://www.uber.com/newsroom/uber-completes-acquisition-of-postmates/
+    name: Uber Completes Acquisition of Postmates
+    type: Announcement
+  - url: https://developer.uber.com
+    name: Uber Developer Portal (Successor)
+    type: Portal
+  - url: https://developer.uber.com/docs/deliveries
+    name: Uber Direct API Documentation
+    type: Documentation
+  - url: https://www.uber.com/legal/en/document/?name=general-terms-of-use
+    name: Uber Terms of Use
+    type: TermsOfService
+  - url: https://www.uber.com/legal/en/document/?name=privacy-notice
+    name: Uber Privacy Notice
+    type: PrivacyPolicy
+  - url: https://x.com/Postmates
+    name: Postmates on X
+    type: X
+  - url: https://www.facebook.com/Postmates
+    name: Postmates on Facebook
+    type: Facebook
+  - url: https://www.instagram.com/postmates
+    name: Postmates on Instagram
+    type: Instagram
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
