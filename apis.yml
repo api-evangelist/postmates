@@ -12,7 +12,7 @@ description: >-
   consumer brand still operates as a front door that funnels orders into the
   Uber Eats marketplace. This profile is maintained as a historical record and
   redirect pointer to the successor Uber developer APIs.
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://postmates.com
 created: '2024-01-01'
 modified: '2026-05-23'
@@ -39,7 +39,7 @@ apis:
       on delivery status. It was deprecated following the Uber acquisition and
       is no longer accepting new developer signups. New integrations should
       migrate to the Uber Direct API.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://postmates.com
     baseURL: https://api.postmates.com
     tags:
@@ -60,7 +60,7 @@ apis:
       Postmates Customer APIs for programmatic on-demand delivery. Merchants
       use Direct to quote, create, and track deliveries dispatched to the
       Uber courier network in markets that Postmates historically served.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://developer.uber.com/docs/deliveries
     baseURL: https://api.uber.com
     tags:
