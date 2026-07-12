@@ -77,6 +77,8 @@ apis:
       - type: Portal
         url: https://developer.uber.com
 common:
+  - type: DomainSecurity
+    url: security/postmates-domain-security.yml
   - url: https://postmates.com
     name: Postmates Website
     type: Website
