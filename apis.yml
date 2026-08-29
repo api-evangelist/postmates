@@ -12,6 +12,17 @@ description: >-
   consumer brand still operates as a front door that funnels orders into the
   Uber Eats marketplace. This profile is maintained as a historical record and
   redirect pointer to the successor Uber developer APIs.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown
