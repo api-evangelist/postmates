@@ -50,7 +50,7 @@ tags:
   - Historical
   - Logistics
   - On-Demand
-  - Sunset
+  - Restaurant
 apis:
   - aid: postmates:postmates-fleet-api-historical
     name: Postmates Fleet API (Historical / Deprecated)
