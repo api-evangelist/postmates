@@ -100,6 +100,12 @@ apis:
       - type: Portal
         url: https://developer.uber.com
 common:
+  - type: Plans
+    url: plans/postmates-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/postmates-rate-limits.yml
+  - type: FinOps
+    url: finops/postmates-finops.yml
   - type: DomainSecurity
     url: security/postmates-domain-security.yml
   - url: https://postmates.com
